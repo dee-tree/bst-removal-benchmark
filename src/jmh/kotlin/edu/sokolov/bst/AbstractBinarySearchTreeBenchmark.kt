@@ -7,14 +7,14 @@ import kotlin.random.Random
 
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
-@Warmup(iterations = 10)
-@Measurement(iterations = 10)
+@Warmup(iterations = 5)
+@Measurement(iterations = 5)
 abstract class AbstractBinarySearchTreeBenchmark {
 
     @State(Scope.Thread)
     abstract class BenchmarkSetState<T : Comparable<T>> : SetState<T> {
 
-        @Param("5, 10, 50, 100, 500, 1000")
+        @Param("5", "10", "50", "100", "500", "1000")
         var size: Int = 0
 
         companion object {
