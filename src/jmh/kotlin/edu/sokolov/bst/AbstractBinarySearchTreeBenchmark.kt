@@ -15,6 +15,7 @@ abstract class AbstractBinarySearchTreeBenchmark {
     abstract class BenchmarkSetState<T : Comparable<T>> : SetState<T> {
 
         @Param("5", "10", "50", "100", "500", "1000")
+//        @Param("100")
         var size: Int = 0
 
         companion object {

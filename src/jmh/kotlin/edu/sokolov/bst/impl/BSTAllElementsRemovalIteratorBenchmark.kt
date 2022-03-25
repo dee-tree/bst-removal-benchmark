@@ -16,3 +16,15 @@ open class BSTAllElementsRemovalIteratorBenchmark : AbstractBinarySearchTreeBenc
     }
 
 }
+
+@Suppress("unused")
+open class BSTAllElementsIterationBenchmark : AbstractBinarySearchTreeBenchmark() {
+    override fun doWork(setState: SetState<Int>) {
+        val iterator = setState.set.iterator()
+
+        while (iterator.hasNext()) {
+            iterator.next()
+        }
+    }
+
+}

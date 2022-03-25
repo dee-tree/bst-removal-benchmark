@@ -1,0 +1,2128 @@
+[
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "5"
+        },
+        "primaryMetric" : {
+            "score" : 0.16083337017365967,
+            "scoreError" : 0.0012813395978640099,
+            "scoreConfidence" : [
+                0.15955203057579567,
+                0.16211470977152367
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.1603983822590248,
+                "50.0" : 0.16099741387292785,
+                "90.0" : 0.161175010652388,
+                "95.0" : 0.161175010652388,
+                "99.0" : 0.161175010652388,
+                "99.9" : 0.161175010652388,
+                "99.99" : 0.161175010652388,
+                "99.999" : 0.161175010652388,
+                "99.9999" : 0.161175010652388,
+                "100.0" : 0.161175010652388
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.1603983822590248,
+                    0.16102994270138288,
+                    0.161175010652388,
+                    0.16056610138257485,
+                    0.16099741387292785
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.27843002970700464,
+            "scoreError" : 0.0011689799931854227,
+            "scoreConfidence" : [
+                0.2772610497138192,
+                0.2795990097001901
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.27822762643684174,
+                "50.0" : 0.2782946971186699,
+                "90.0" : 0.27895131814851193,
+                "95.0" : 0.27895131814851193,
+                "99.0" : 0.27895131814851193,
+                "99.9" : 0.27895131814851193,
+                "99.99" : 0.27895131814851193,
+                "99.999" : 0.27895131814851193,
+                "99.9999" : 0.27895131814851193,
+                "100.0" : 0.27895131814851193
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.27895131814851193,
+                    0.2784401720342977,
+                    0.2782946971186699,
+                    0.27822762643684174,
+                    0.2782363347967018
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 1.8740548662207495,
+            "scoreError" : 0.15125132809599362,
+            "scoreConfidence" : [
+                1.7228035381247557,
+                2.025306194316743
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.8483663009784483,
+                "50.0" : 1.8545136715622772,
+                "90.0" : 1.9415767164129059,
+                "95.0" : 1.9415767164129059,
+                "99.0" : 1.9415767164129059,
+                "99.9" : 1.9415767164129059,
+                "99.99" : 1.9415767164129059,
+                "99.999" : 1.9415767164129059,
+                "99.9999" : 1.9415767164129059,
+                "100.0" : 1.9415767164129059
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.9415767164129059,
+                    1.875599046406632,
+                    1.8483663009784483,
+                    1.850218595743484,
+                    1.8545136715622772
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 5.151777275982181,
+            "scoreError" : 0.05804163378273192,
+            "scoreConfidence" : [
+                5.093735642199449,
+                5.2098189097649135
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.1306879270406895,
+                "50.0" : 5.153896605032196,
+                "90.0" : 5.168763737068839,
+                "95.0" : 5.168763737068839,
+                "99.0" : 5.168763737068839,
+                "99.9" : 5.168763737068839,
+                "99.99" : 5.168763737068839,
+                "99.999" : 5.168763737068839,
+                "99.9999" : 5.168763737068839,
+                "100.0" : 5.168763737068839
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.153896605032196,
+                    5.143575321136629,
+                    5.1306879270406895,
+                    5.1619627896325495,
+                    5.168763737068839
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 71.55135352513933,
+            "scoreError" : 0.17824412434696763,
+            "scoreConfidence" : [
+                71.37310940079237,
+                71.7295976494863
+            ],
+            "scorePercentiles" : {
+                "0.0" : 71.50240190451898,
+                "50.0" : 71.53986650227456,
+                "90.0" : 71.62630996467033,
+                "95.0" : 71.62630996467033,
+                "99.0" : 71.62630996467033,
+                "99.9" : 71.62630996467033,
+                "99.99" : 71.62630996467033,
+                "99.999" : 71.62630996467033,
+                "99.9999" : 71.62630996467033,
+                "100.0" : 71.62630996467033
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    71.53986650227456,
+                    71.62630996467033,
+                    71.55671965317919,
+                    71.53146960105366,
+                    71.50240190451898
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 239.91091747533036,
+            "scoreError" : 1.4348923541257754,
+            "scoreConfidence" : [
+                238.4760251212046,
+                241.34580982945613
+            ],
+            "scorePercentiles" : {
+                "0.0" : 239.56337470768125,
+                "50.0" : 239.7584233261339,
+                "90.0" : 240.48305941845766,
+                "95.0" : 240.48305941845766,
+                "99.0" : 240.48305941845766,
+                "99.9" : 240.48305941845766,
+                "99.99" : 240.48305941845766,
+                "99.999" : 240.48305941845766,
+                "99.9999" : 240.48305941845766,
+                "100.0" : 240.48305941845766
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    239.56337470768125,
+                    240.48305941845766,
+                    239.67306445804826,
+                    240.07666546633058,
+                    239.7584233261339
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "5"
+        },
+        "primaryMetric" : {
+            "score" : 0.14149152532137388,
+            "scoreError" : 4.550006944122886E-4,
+            "scoreConfidence" : [
+                0.1410365246269616,
+                0.14194652601578617
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.1412928334751238,
+                "50.0" : 0.14154940956856457,
+                "90.0" : 0.14158314713298137,
+                "95.0" : 0.14158314713298137,
+                "99.0" : 0.14158314713298137,
+                "99.9" : 0.14158314713298137,
+                "99.99" : 0.14158314713298137,
+                "99.999" : 0.14158314713298137,
+                "99.9999" : 0.14158314713298137,
+                "100.0" : 0.14158314713298137
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.14155744642867701,
+                    0.1412928334751238,
+                    0.14158314713298137,
+                    0.14154940956856457,
+                    0.1414747900015226
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.2504208085127901,
+            "scoreError" : 0.0027672443495746673,
+            "scoreConfidence" : [
+                0.2476535641632154,
+                0.25318805286236473
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.249669892347981,
+                "50.0" : 0.25012911509896,
+                "90.0" : 0.25138141295575034,
+                "95.0" : 0.25138141295575034,
+                "99.0" : 0.25138141295575034,
+                "99.9" : 0.25138141295575034,
+                "99.99" : 0.25138141295575034,
+                "99.999" : 0.25138141295575034,
+                "99.9999" : 0.25138141295575034,
+                "100.0" : 0.25138141295575034
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.249669892347981,
+                    0.25095714764284255,
+                    0.25138141295575034,
+                    0.25012911509896,
+                    0.24996647451841644
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 1.7284988795563905,
+            "scoreError" : 0.040709987143630916,
+            "scoreConfidence" : [
+                1.6877888924127595,
+                1.7692088667000214
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.7177744051014097,
+                "50.0" : 1.7269191603081049,
+                "90.0" : 1.745794455303802,
+                "95.0" : 1.745794455303802,
+                "99.0" : 1.745794455303802,
+                "99.9" : 1.745794455303802,
+                "99.99" : 1.745794455303802,
+                "99.999" : 1.745794455303802,
+                "99.9999" : 1.745794455303802,
+                "100.0" : 1.745794455303802
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.7269191603081049,
+                    1.7177744051014097,
+                    1.745794455303802,
+                    1.7230043139315903,
+                    1.7290020631370444
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 4.525058149396675,
+            "scoreError" : 0.12077932264558343,
+            "scoreConfidence" : [
+                4.404278826751091,
+                4.645837472042259
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.490373349866175,
+                "50.0" : 4.544463720477234,
+                "90.0" : 4.55320191038735,
+                "95.0" : 4.55320191038735,
+                "99.0" : 4.55320191038735,
+                "99.9" : 4.55320191038735,
+                "99.99" : 4.55320191038735,
+                "99.999" : 4.55320191038735,
+                "99.9999" : 4.55320191038735,
+                "100.0" : 4.55320191038735
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.491414905781124,
+                    4.55320191038735,
+                    4.544463720477234,
+                    4.545836860471489,
+                    4.490373349866175
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 68.42849035988482,
+            "scoreError" : 0.2912327073403078,
+            "scoreConfidence" : [
+                68.1372576525445,
+                68.71972306722513
+            ],
+            "scorePercentiles" : {
+                "0.0" : 68.30633225042673,
+                "50.0" : 68.46216141818982,
+                "90.0" : 68.49094770520742,
+                "95.0" : 68.49094770520742,
+                "99.0" : 68.49094770520742,
+                "99.9" : 68.49094770520742,
+                "99.99" : 68.49094770520742,
+                "99.999" : 68.49094770520742,
+                "99.9999" : 68.49094770520742,
+                "100.0" : 68.49094770520742
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    68.30633225042673,
+                    68.46216141818982,
+                    68.47745578755992,
+                    68.40555463804019,
+                    68.49094770520742
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 234.4385443389079,
+            "scoreError" : 1.3473850952303574,
+            "scoreConfidence" : [
+                233.09115924367754,
+                235.78592943413824
+            ],
+            "scorePercentiles" : {
+                "0.0" : 234.17236385886193,
+                "50.0" : 234.26991637772792,
+                "90.0" : 235.02779938587514,
+                "95.0" : 235.02779938587514,
+                "99.0" : 235.02779938587514,
+                "99.9" : 235.02779938587514,
+                "99.99" : 235.02779938587514,
+                "99.999" : 235.02779938587514,
+                "99.9999" : 235.02779938587514,
+                "100.0" : 235.02779938587514
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    234.26991637772792,
+                    234.17236385886193,
+                    234.2361875637105,
+                    234.48645450836392,
+                    235.02779938587514
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "5"
+        },
+        "primaryMetric" : {
+            "score" : 0.15588130435830688,
+            "scoreError" : 7.255701118554133E-4,
+            "scoreConfidence" : [
+                0.15515573424645146,
+                0.1566068744701623
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.1556908961731533,
+                "50.0" : 0.15585574710129693,
+                "90.0" : 0.1561900772106612,
+                "95.0" : 0.1561900772106612,
+                "99.0" : 0.1561900772106612,
+                "99.9" : 0.1561900772106612,
+                "99.99" : 0.1561900772106612,
+                "99.999" : 0.1561900772106612,
+                "99.9999" : 0.1561900772106612,
+                "100.0" : 0.1561900772106612
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.15585574710129693,
+                    0.1556908961731533,
+                    0.15588717442804653,
+                    0.15578262687837638,
+                    0.1561900772106612
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.26947484149210305,
+            "scoreError" : 0.0013406078483644318,
+            "scoreConfidence" : [
+                0.2681342336437386,
+                0.2708154493404675
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.2689765852276438,
+                "50.0" : 0.26944195650403835,
+                "90.0" : 0.2699222599668172,
+                "95.0" : 0.2699222599668172,
+                "99.0" : 0.2699222599668172,
+                "99.9" : 0.2699222599668172,
+                "99.99" : 0.2699222599668172,
+                "99.999" : 0.2699222599668172,
+                "99.9999" : 0.2699222599668172,
+                "100.0" : 0.2699222599668172
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.2693905890868556,
+                    0.2689765852276438,
+                    0.2699222599668172,
+                    0.26944195650403835,
+                    0.2696428166751605
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 1.3828331106597398,
+            "scoreError" : 0.0217359799033738,
+            "scoreConfidence" : [
+                1.361097130756366,
+                1.4045690905631136
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.3746731106209702,
+                "50.0" : 1.384018711665531,
+                "90.0" : 1.3881302556820287,
+                "95.0" : 1.3881302556820287,
+                "99.0" : 1.3881302556820287,
+                "99.9" : 1.3881302556820287,
+                "99.99" : 1.3881302556820287,
+                "99.999" : 1.3881302556820287,
+                "99.9999" : 1.3881302556820287,
+                "100.0" : 1.3881302556820287
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.3875444563052208,
+                    1.3746731106209702,
+                    1.3797990190249483,
+                    1.3881302556820287,
+                    1.384018711665531
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 2.7803563662938036,
+            "scoreError" : 0.0074972607908691535,
+            "scoreConfidence" : [
+                2.7728591055029344,
+                2.7878536270846728
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.7776391691754214,
+                "50.0" : 2.7803187034694665,
+                "90.0" : 2.782773008544195,
+                "95.0" : 2.782773008544195,
+                "99.0" : 2.782773008544195,
+                "99.9" : 2.782773008544195,
+                "99.99" : 2.782773008544195,
+                "99.999" : 2.782773008544195,
+                "99.9999" : 2.782773008544195,
+                "100.0" : 2.782773008544195
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.7795555440134927,
+                    2.782773008544195,
+                    2.7776391691754214,
+                    2.7803187034694665,
+                    2.7814954062664423
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 23.543700130823243,
+            "scoreError" : 1.402380879685769,
+            "scoreConfidence" : [
+                22.141319251137475,
+                24.946081010509012
+            ],
+            "scorePercentiles" : {
+                "0.0" : 22.894506404672484,
+                "50.0" : 23.70841501245212,
+                "90.0" : 23.746245076586433,
+                "95.0" : 23.746245076586433,
+                "99.0" : 23.746245076586433,
+                "99.9" : 23.746245076586433,
+                "99.99" : 23.746245076586433,
+                "99.999" : 23.746245076586433,
+                "99.9999" : 23.746245076586433,
+                "100.0" : 23.746245076586433
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    23.746245076586433,
+                    23.709135126476284,
+                    23.70841501245212,
+                    23.660199033928883,
+                    22.894506404672484
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsIterationBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 50.28667111686326,
+            "scoreError" : 0.35087416674859795,
+            "scoreConfidence" : [
+                49.935796950114664,
+                50.63754528361186
+            ],
+            "scorePercentiles" : {
+                "0.0" : 50.19809405940594,
+                "50.0" : 50.261581133011035,
+                "90.0" : 50.422352795262164,
+                "95.0" : 50.422352795262164,
+                "99.0" : 50.422352795262164,
+                "99.9" : 50.422352795262164,
+                "99.99" : 50.422352795262164,
+                "99.999" : 50.422352795262164,
+                "99.9999" : 50.422352795262164,
+                "100.0" : 50.422352795262164
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    50.19809405940594,
+                    50.422352795262164,
+                    50.33082191780822,
+                    50.261581133011035,
+                    50.22050567882896
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "5"
+        },
+        "primaryMetric" : {
+            "score" : 0.18856898698350127,
+            "scoreError" : 0.0011269913149977362,
+            "scoreConfidence" : [
+                0.18744199566850353,
+                0.18969597829849902
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.18810690682536413,
+                "50.0" : 0.18869449694044085,
+                "90.0" : 0.1888220090982578,
+                "95.0" : 0.1888220090982578,
+                "99.0" : 0.1888220090982578,
+                "99.9" : 0.1888220090982578,
+                "99.99" : 0.1888220090982578,
+                "99.999" : 0.1888220090982578,
+                "99.9999" : 0.1888220090982578,
+                "100.0" : 0.1888220090982578
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.1884593411407861,
+                    0.18869449694044085,
+                    0.18876218091265748,
+                    0.18810690682536413,
+                    0.1888220090982578
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.3239030242971993,
+            "scoreError" : 7.244782685372303E-4,
+            "scoreConfidence" : [
+                0.3231785460286621,
+                0.3246275025657365
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.3235958705333978,
+                "50.0" : 0.32394048585934726,
+                "90.0" : 0.3240808794524825,
+                "95.0" : 0.3240808794524825,
+                "99.0" : 0.3240808794524825,
+                "99.9" : 0.3240808794524825,
+                "99.99" : 0.3240808794524825,
+                "99.999" : 0.3240808794524825,
+                "99.9999" : 0.3240808794524825,
+                "100.0" : 0.3240808794524825
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.3240808794524825,
+                    0.32387824119377173,
+                    0.3240196444469973,
+                    0.3235958705333978,
+                    0.32394048585934726
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 1.339132128635017,
+            "scoreError" : 0.0017491827754992492,
+            "scoreConfidence" : [
+                1.337382945859518,
+                1.3408813114105163
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.338407801086128,
+                "50.0" : 1.3392920269208586,
+                "90.0" : 1.3395763812475578,
+                "95.0" : 1.3395763812475578,
+                "99.0" : 1.3395763812475578,
+                "99.9" : 1.3395763812475578,
+                "99.99" : 1.3395763812475578,
+                "99.999" : 1.3395763812475578,
+                "99.9999" : 1.3395763812475578,
+                "100.0" : 1.3395763812475578
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.3395763812475578,
+                    1.3390043353467278,
+                    1.3392920269208586,
+                    1.338407801086128,
+                    1.339380098573813
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 2.5727596488059263,
+            "scoreError" : 0.02645488281878946,
+            "scoreConfidence" : [
+                2.546304765987137,
+                2.5992145316247157
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.567400969384197,
+                "50.0" : 2.57071242861028,
+                "90.0" : 2.5846713020797885,
+                "95.0" : 2.5846713020797885,
+                "99.0" : 2.5846713020797885,
+                "99.9" : 2.5846713020797885,
+                "99.99" : 2.5846713020797885,
+                "99.999" : 2.5846713020797885,
+                "99.9999" : 2.5846713020797885,
+                "100.0" : 2.5846713020797885
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.567400969384197,
+                    2.5718953577728487,
+                    2.5691181861825165,
+                    2.5846713020797885,
+                    2.57071242861028
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 12.661989831876392,
+            "scoreError" : 0.0794304028811635,
+            "scoreConfidence" : [
+                12.582559428995229,
+                12.741420234757555
+            ],
+            "scorePercentiles" : {
+                "0.0" : 12.63992306283202,
+                "50.0" : 12.654400556939763,
+                "90.0" : 12.694846607777738,
+                "95.0" : 12.694846607777738,
+                "99.0" : 12.694846607777738,
+                "99.9" : 12.694846607777738,
+                "99.99" : 12.694846607777738,
+                "99.999" : 12.694846607777738,
+                "99.9999" : 12.694846607777738,
+                "100.0" : 12.694846607777738
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    12.65435626877702,
+                    12.63992306283202,
+                    12.654400556939763,
+                    12.666422663055414,
+                    12.694846607777738
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkAscendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 26.399164798271965,
+            "scoreError" : 0.8414212334964211,
+            "scoreConfidence" : [
+                25.557743564775542,
+                27.240586031768387
+            ],
+            "scorePercentiles" : {
+                "0.0" : 26.01211298207496,
+                "50.0" : 26.474223433242507,
+                "90.0" : 26.538098476605004,
+                "95.0" : 26.538098476605004,
+                "99.0" : 26.538098476605004,
+                "99.9" : 26.538098476605004,
+                "99.99" : 26.538098476605004,
+                "99.999" : 26.538098476605004,
+                "99.9999" : 26.538098476605004,
+                "100.0" : 26.538098476605004
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    26.474223433242507,
+                    26.510932825673102,
+                    26.538098476605004,
+                    26.460456273764258,
+                    26.01211298207496
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "5"
+        },
+        "primaryMetric" : {
+            "score" : 0.19712305441674616,
+            "scoreError" : 0.0011294935591220849,
+            "scoreConfidence" : [
+                0.19599356085762407,
+                0.19825254797586825
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.19674634710975708,
+                "50.0" : 0.19710238117422488,
+                "90.0" : 0.19750429142059983,
+                "95.0" : 0.19750429142059983,
+                "99.0" : 0.19750429142059983,
+                "99.9" : 0.19750429142059983,
+                "99.99" : 0.19750429142059983,
+                "99.999" : 0.19750429142059983,
+                "99.9999" : 0.19750429142059983,
+                "100.0" : 0.19750429142059983
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.19750429142059983,
+                    0.19729898412620853,
+                    0.19674634710975708,
+                    0.19710238117422488,
+                    0.19696326825294047
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.36712781555137414,
+            "scoreError" : 0.0025929381981265316,
+            "scoreConfidence" : [
+                0.36453487735324763,
+                0.36972075374950064
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.3663816872323525,
+                "50.0" : 0.3670002174317859,
+                "90.0" : 0.3680874690568812,
+                "95.0" : 0.3680874690568812,
+                "99.0" : 0.3680874690568812,
+                "99.9" : 0.3680874690568812,
+                "99.99" : 0.3680874690568812,
+                "99.999" : 0.3680874690568812,
+                "99.9999" : 0.3680874690568812,
+                "100.0" : 0.3680874690568812
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.3680874690568812,
+                    0.3670002174317859,
+                    0.36748242930712205,
+                    0.36668727472872925,
+                    0.3663816872323525
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 2.514533055937183,
+            "scoreError" : 0.020171906516599152,
+            "scoreConfidence" : [
+                2.494361149420584,
+                2.534704962453782
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.5087788055167315,
+                "50.0" : 2.5133276064221075,
+                "90.0" : 2.5217485576805045,
+                "95.0" : 2.5217485576805045,
+                "99.0" : 2.5217485576805045,
+                "99.9" : 2.5217485576805045,
+                "99.99" : 2.5217485576805045,
+                "99.999" : 2.5217485576805045,
+                "99.9999" : 2.5217485576805045,
+                "100.0" : 2.5217485576805045
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.511005876050081,
+                    2.5178044340164907,
+                    2.5133276064221075,
+                    2.5217485576805045,
+                    2.5087788055167315
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 6.023830822699263,
+            "scoreError" : 0.057423605627110165,
+            "scoreConfidence" : [
+                5.9664072170721525,
+                6.081254428326373
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.998946717307481,
+                "50.0" : 6.028078141162903,
+                "90.0" : 6.0386230307250415,
+                "95.0" : 6.0386230307250415,
+                "99.0" : 6.0386230307250415,
+                "99.9" : 6.0386230307250415,
+                "99.99" : 6.0386230307250415,
+                "99.999" : 6.0386230307250415,
+                "99.9999" : 6.0386230307250415,
+                "100.0" : 6.0386230307250415
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    6.028078141162903,
+                    6.0386230307250415,
+                    6.029617587996488,
+                    6.023888636304402,
+                    5.998946717307481
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 73.52573346564621,
+            "scoreError" : 0.18040478618406336,
+            "scoreConfidence" : [
+                73.34532867946214,
+                73.70613825183028
+            ],
+            "scorePercentiles" : {
+                "0.0" : 73.46442693026984,
+                "50.0" : 73.52360356347438,
+                "90.0" : 73.58639222157798,
+                "95.0" : 73.58639222157798,
+                "99.0" : 73.58639222157798,
+                "99.9" : 73.58639222157798,
+                "99.99" : 73.58639222157798,
+                "99.999" : 73.58639222157798,
+                "99.9999" : 73.58639222157798,
+                "100.0" : 73.58639222157798
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    73.58639222157798,
+                    73.46442693026984,
+                    73.52360356347438,
+                    73.55294406061957,
+                    73.50130055228932
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkDescendingSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 244.25841785129487,
+            "scoreError" : 0.8289615733138911,
+            "scoreConfidence" : [
+                243.42945627798096,
+                245.08737942460877
+            ],
+            "scorePercentiles" : {
+                "0.0" : 243.9219301340861,
+                "50.0" : 244.27783268619837,
+                "90.0" : 244.50412844036697,
+                "95.0" : 244.50412844036697,
+                "99.0" : 244.50412844036697,
+                "99.9" : 244.50412844036697,
+                "99.99" : 244.50412844036697,
+                "99.999" : 244.50412844036697,
+                "99.9999" : 244.50412844036697,
+                "100.0" : 244.50412844036697
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    244.3606525573192,
+                    244.50412844036697,
+                    243.9219301340861,
+                    244.22754543850363,
+                    244.27783268619837
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "5"
+        },
+        "primaryMetric" : {
+            "score" : 0.19372152265918507,
+            "scoreError" : 0.0012089891186325594,
+            "scoreConfidence" : [
+                0.1925125335405525,
+                0.19493051177781764
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.1932841249445334,
+                "50.0" : 0.19381670175161583,
+                "90.0" : 0.19411650836130978,
+                "95.0" : 0.19411650836130978,
+                "99.0" : 0.19411650836130978,
+                "99.9" : 0.19411650836130978,
+                "99.99" : 0.19411650836130978,
+                "99.999" : 0.19411650836130978,
+                "99.9999" : 0.19411650836130978,
+                "100.0" : 0.19411650836130978
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.1938302844676607,
+                    0.19355999377080574,
+                    0.1932841249445334,
+                    0.19381670175161583,
+                    0.19411650836130978
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 0.38987403185742675,
+            "scoreError" : 0.002927678355991193,
+            "scoreConfidence" : [
+                0.3869463535014356,
+                0.3928017102134179
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.3887191999363712,
+                "50.0" : 0.3900575299957741,
+                "90.0" : 0.39075866226212386,
+                "95.0" : 0.39075866226212386,
+                "99.0" : 0.39075866226212386,
+                "99.9" : 0.39075866226212386,
+                "99.99" : 0.39075866226212386,
+                "99.999" : 0.39075866226212386,
+                "99.9999" : 0.39075866226212386,
+                "100.0" : 0.39075866226212386
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    0.3887191999363712,
+                    0.3896357457555513,
+                    0.39075866226212386,
+                    0.3900575299957741,
+                    0.39019902133731316
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 1.7479270149581647,
+            "scoreError" : 0.09826792044012869,
+            "scoreConfidence" : [
+                1.649659094518036,
+                1.8461949353982934
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.7152707701985532,
+                "50.0" : 1.7620226940325352,
+                "90.0" : 1.7736366361507168,
+                "95.0" : 1.7736366361507168,
+                "99.0" : 1.7736366361507168,
+                "99.9" : 1.7736366361507168,
+                "99.99" : 1.7736366361507168,
+                "99.999" : 1.7736366361507168,
+                "99.9999" : 1.7736366361507168,
+                "100.0" : 1.7736366361507168
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.7736366361507168,
+                    1.7620226940325352,
+                    1.762427287504177,
+                    1.7262776869048408,
+                    1.7152707701985532
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 3.4953426500526548,
+            "scoreError" : 0.19399151670248901,
+            "scoreConfidence" : [
+                3.301351133350166,
+                3.6893341667551436
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.4266893646893646,
+                "50.0" : 3.5215855494846564,
+                "90.0" : 3.5368422029266626,
+                "95.0" : 3.5368422029266626,
+                "99.0" : 3.5368422029266626,
+                "99.9" : 3.5368422029266626,
+                "99.99" : 3.5368422029266626,
+                "99.999" : 3.5368422029266626,
+                "99.9999" : 3.5368422029266626,
+                "100.0" : 3.5368422029266626
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.534705493786385,
+                    3.5368422029266626,
+                    3.5215855494846564,
+                    3.4568906393762044,
+                    3.4266893646893646
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 21.079348833904398,
+            "scoreError" : 0.11317279510820223,
+            "scoreConfidence" : [
+                20.966176038796196,
+                21.1925216290126
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21.039053516659088,
+                "50.0" : 21.0805550049554,
+                "90.0" : 21.121482580901517,
+                "95.0" : 21.121482580901517,
+                "99.0" : 21.121482580901517,
+                "99.9" : 21.121482580901517,
+                "99.99" : 21.121482580901517,
+                "99.999" : 21.121482580901517,
+                "99.9999" : 21.121482580901517,
+                "100.0" : 21.121482580901517
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    21.121482580901517,
+                    21.039053516659088,
+                    21.072817629285705,
+                    21.0805550049554,
+                    21.08283543772026
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.34",
+        "benchmark" : "edu.sokolov.bst.impl.BSTAllElementsRemovalIteratorBenchmark.doWorkRandomSetState",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\Dmitriy\\.jdks\\corretto-1.8.0_242\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dfile.encoding=windows-1251",
+            "-Djava.io.tmpdir=W:\\Kotlin\\Projects\\bst-removal-bench\\build\\tmp\\jmhRun",
+            "-Duser.country=RU",
+            "-Duser.language=ru",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "1.8.0_242",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.242-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 45.37125159300503,
+            "scoreError" : 0.502094817253277,
+            "scoreConfidence" : [
+                44.86915677575175,
+                45.87334641025831
+            ],
+            "scorePercentiles" : {
+                "0.0" : 45.247501660247046,
+                "50.0" : 45.30102651384198,
+                "90.0" : 45.56181488106362,
+                "95.0" : 45.56181488106362,
+                "99.0" : 45.56181488106362,
+                "99.9" : 45.56181488106362,
+                "99.99" : 45.56181488106362,
+                "99.999" : 45.56181488106362,
+                "99.9999" : 45.56181488106362,
+                "100.0" : 45.56181488106362
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    45.247501660247046,
+                    45.30102651384198,
+                    45.297317027682304,
+                    45.56181488106362,
+                    45.44859788219018
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
